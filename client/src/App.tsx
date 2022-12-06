@@ -28,12 +28,12 @@ function App() {
             <Route path='/signup' element={<Signup />} />
             <Route path='/login' element={<Login />} />
             <Route path='/adminlogin' element={<AdminLogin />} />
-            {/* <Route path="/" element={<AdminRouteProtect/>}> */}
+            <Route path="/" element={<AdminRouteProtect />}>
               <Route path='/admin' element={<AdminHome />} >
-              <Route path='dashboard' element={<Dashboard />} />
-            {/* </Route> */}
+                <Route path='dashboard' element={<Dashboard />} />
+              </Route>
             </Route>
-            
+
           </Routes>
         </UserAuthContextProvider>
       </Router>

@@ -76,7 +76,7 @@ function Signup() {
                                         <Box sx={{ color: 'red' }}>
                                             {message && !password ? "Enter Password" : ''}
                                         </Box>
-                                        <button type="submit" onClick={handleSubmit} className="btn btn-primary btn-block btn-large">Login</button>
+                                        <button type="submit" onClick={handleSubmit} className="btn btn-primary btn-block btn-large">Sign up</button>
                                         {/* <Box sx={{ml:15}}> */}
                                         {/* <BeatLoader loading={loading} color="#FFFFFF" /> */}
                                         {/* </Box> */}

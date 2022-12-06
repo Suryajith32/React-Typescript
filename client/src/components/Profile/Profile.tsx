@@ -68,7 +68,7 @@ function Profile() {
             <div>
                 <Box sx={{ display: 'flex', mt: 5 }} alignItems="center"
                     justifyContent="center">
-                    <Card sx={{ width: 500, height: 200 }} >
+                    <Card sx={{ width: 500, height: 230 }} >
                         <Typography gutterBottom variant="h5" component="div">
                             PROFILE
                         </Typography>
@@ -77,7 +77,7 @@ function Profile() {
                             <Avatar
                                 alt="Remy Sharp"
                                 src={currentUser[0]?.profileImage}
-                                sx={{ width: 56, height: 56, }}
+                                sx={{ width: 70, height: 70 }}
                             />
                         </Box>
                         <CardContent>

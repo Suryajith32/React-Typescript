@@ -11,6 +11,6 @@ const useAuth = () => {
 }
 const AdminRouteProtect = (props:any) => {
 	const auth = useAuth()
-	return auth ? <Outlet /> : <Navigate to="/signup" />
+	return auth ? <Outlet /> : <Navigate to="/adminlogin" />
 }
 export default AdminRouteProtect;;
